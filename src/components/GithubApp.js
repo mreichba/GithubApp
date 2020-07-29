@@ -104,7 +104,7 @@ const GithubApp = () => {
 
     return (
         <div className="container">
-            <h3>What coding language(s) does User code in?</h3>
+            <h3>GitHub Profile Peeker</h3>
             <p>(based on user's contributions to public Github repositories)</p>
             <input
                 type="text"
