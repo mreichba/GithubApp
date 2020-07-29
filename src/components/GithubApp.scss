@@ -31,4 +31,39 @@
         padding-top: 0px;
         font-size: 14px;
     }
+    rect{
+        fill:none;
+        
+    }
+    text {
+        fill:white;
+    }
+    .google-visualization-tooltip text {
+        fill:black;
+    }
+    a{
+        color: rgb(140, 147, 236)
+    }
+    a:visited {
+        color:rgb(140, 147, 236);
+    }
+    a:hover {
+        color: white;
+    }
+    h4{
+        text-decoration: underline;
+    }
+    li{
+        margin-bottom: 10px;
+    }
+    .repoButton {
+        font-size: 20px;
+        background-color: #3F51B5;
+        color: white;
+        border-radius: 5px;
+    }
+    .repoButton:hover{
+        background-color: rgb(43, 55, 122);
+    }
+
 }

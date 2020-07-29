@@ -7,10 +7,13 @@ class Avatar extends Component {
     render() {
 
         const imgSrc = this.props.src;
+        const home = this.props.home;
 
-        return(
+        return (
             <div className="avatarContainer">
-                <Image alt="userImage" src={imgSrc} roundedCircle />
+                <a href={home} target='_blank' rel='noopener noreferrer'>
+                    <Image alt="userImage" src={imgSrc} roundedCircle />
+                </a>
             </div>
         )
     }
